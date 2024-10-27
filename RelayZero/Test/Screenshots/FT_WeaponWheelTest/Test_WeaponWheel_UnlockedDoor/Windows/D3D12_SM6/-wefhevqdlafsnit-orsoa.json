@@ -1,10 +1,10 @@
 {
-	"screenShotName": "Test_WeaponWheel_ShowsCorrectOptionsForUnlockedDoor",
+	"screenShotName": "Test_WeaponWheel_UnlockedDoor",
 	"variantName": "",
 	"context": "FT_WeaponWheelTest",
-	"testName": "Project.Functional Tests.Tests.WeaponWheelTests.FT_WeaponWheelTest.Test_WeaponWheel_ShowsCorrectOptionsForUnlockedDoor",
+	"testName": "Project.Functional Tests.Tests.WeaponWheelTests.FT_WeaponWheelTest.Test_WeaponWheel_UnlockedDoor",
 	"notes": "",
-	"id": "8058192945B95B05859AEFA168A3DFA2",
+	"id": "DA55E4624268AAFF2E3A82B00F6082CA",
 	"commit": "35576357",
 	"width": 1920,
 	"height": 1080,
