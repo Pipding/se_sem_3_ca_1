@@ -37,6 +37,10 @@ void ABaseCharacter::GetActorEyesViewPoint(FVector& Location, FRotator& Rotation
 {
 	Location = GetMesh()->GetSocketLocation("Head");
 
-	Rotation = GetActorRotation();
-	Rotation.Yaw -= GetMesh()->GetSocketTransform("Head", RTS_ParentBoneSpace).Rotator().Roll;
+	const FRotator HeadRotation = GetMesh()->GetSocketRotation("Head");
+
+	FRotator AdjustedRotation = HeadRotation;
+	AdjustedRotation.Yaw += 90.0f; // The robot's head has rotation of 90 degrees when facing forward, so account for this
+
+	Rotation = AdjustedRotation;
 }
